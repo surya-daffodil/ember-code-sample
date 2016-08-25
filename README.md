@@ -121,6 +121,8 @@ login: function() {
 ## Template of Document Section
 > Here, the user can View/Create/Delete documents
 
+![alt text](images/documents.png "Document Section")
+
 ```
 <div class="container">
     <div class="parent_section_tab resp-vtabs dasboard_tab" style="auto">
@@ -168,6 +170,8 @@ login: function() {
 
 ## Template of Extrafeatures Section
 > The user can update the features and upload some images with the features too.
+
+![alt text](images/extra_features.png "Extrafeatures Section")
 
 ```
 <div class="parent_section_tab">
@@ -225,6 +229,8 @@ login: function() {
 ## Template of a section having canvas
 > We are having many section eg. Plumbing, Space, Background etc where the user can draw shapes according to the building architecture.
 
+![alt text](images/section_having_canvas.png "Section having Canvas")
+
 ```
 <div id="content">
     <div id="svg_cont" style="position:relative; top:0; left:0; width:100%;height:100%;">
@@ -253,6 +259,8 @@ login: function() {
 
 > A line can be converted to an arc with the help of this tool, a red circle appears on the line and if we have a closed shape, a red circle appears on each edge of the shape.
 > Clicking and dragging the circle makes the arc of the line with the desired angle.
+
+![alt text](images/arc_tool.png "Arc Tool")
 
 ```
 arcBehavior: function() {
